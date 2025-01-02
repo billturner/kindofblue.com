@@ -19,16 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 title: The weblog of Bill Turner
+name: Kind of Blue
 author: Bill Turner
 email: billturner@gmail.com
 description: The weblog of Pittsburgh-based web developer Bill Turner.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kindofblue.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: billturner
-github_username:  billturner
 
 # Build settings
-theme: jekyll-whiteglass
+# theme: jekyll-whiteglass
 plugins:
   - jekyll-archives
   - jekyll-paginate
@@ -37,7 +36,8 @@ plugins:
 
 permalink: /:year/:month/:title/
 paginate_path: /posts/:num/
-paginate: 5
+paginate: 10
+excerpt_separator: <!--more-->
 
 jekyll-archives:
   enabled:

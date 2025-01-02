@@ -15,6 +15,8 @@ Since I've been [sketching more the last few years](https://kindofblue.com/2016/
 
 When I started looking for some bookbinding tutorials, I came across [Sea Lemon's videos on YouTube](https://www.youtube.com/channel/UCGbxOeCBuGSsKvt4g9lEv3A "Sea Lemon's YouTube channel"), and specifically her simple [saddle stitch bookbinding tutorial](https://www.youtube.com/watch?v=aWHkY5jOoqM "Sea Lemon's saddle stitch tutorial"). That definitely seemed like something I could pull off. Plus, it didn't seem like the supplies for those kinds of books would set me back too much.
 
+<!--more-->
+
 I visited the local [Dick Blick](https://dickblick.com "The Dick Blick website") store and picked up a few supplies, like a few sheets of thick posterboard in various colors (for book covers) and a [big roll of cheap-ish drawing paper](http://amzn.to/2z64ii3 "The same roll of paper I bought, listed on Amazon.com") for around $30. The paper wasn't all that I needed, though. All that was left were [a few more essential tools](http://amzn.to/2z6jdck "Amazon.com page for a pack of bookbinding tools") (like a awl, a bone folder, and some thread), and I could make my own sketchbooks with relative ease.
 
 The first couple haven't been the best quality, and they certainly don't have perfectly square corners, but they work well enough to sketch in. You can see in the image above I've finished one, and the larger, square one is almost completely full as well.

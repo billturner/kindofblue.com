@@ -1,0 +1,12 @@
+{% assign feed_path = "/feed.xml" %}
+{% if site.feed and site.feed.path %}
+  {% assign feed_path = site.feed.path %}
+{% endif %}
+<footer>
+  <div class
+  &copy; {{ site.author }} -
+  <a href="https://dice.camp/@billturner" rel="me">billturner@dice.camp</a> -
+  Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp;
+  theme based on <a href="https://github.com/yous/whiteglass">whiteglass</a> -
+  Subscribe via <a href="{{ feed_path | absolute_url }}">RSS/Atom</a>
+</footer>

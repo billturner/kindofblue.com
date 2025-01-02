@@ -15,6 +15,8 @@ This should be the first of a few blog posts explaining how to get a simple API 
 
 I'll be using Python 3.x, and I'm going to assume you have it all set up and in your path. If you don't have it set up, you can find a downloadable installer [on the Python web site](https://www.python.org/downloads/ 'The Python downloads page.').
 
+<!--more-->
+
 #### Setting up the virtual environment and installing Flask
 
 We want to create a directory for our Python files, so make one of your own choosing; I used `simple_flask_api`. Change into that directory, and from here on out all files should go in here. I'll use the virtual environment ability built into newer versions of Python, and I'll call the environment `venv`:

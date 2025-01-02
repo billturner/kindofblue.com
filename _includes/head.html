@@ -1,0 +1,32 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% capture title %}{{ page.title | escape }} | {{ site.title | escape }}{% endcapture %}
+  {% assign canonical = page.url | replace:'index.html','' | absolute_url %}
+  {% assign description = page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | escape %}
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  {% if page.keywords %}
+    {% if page.keywords.first %}
+      {% assign keywords = page.keywords | join: ',' %}
+    {% else %}
+      {% assign keywords = page.keywords %}
+    {% endif %}
+    <meta name="keywords" content="{{ keywords }}">
+  {% endif %}
+
+  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+  <link rel="canonical" href="{{ canonical }}">
+  {% assign feed_path = "/feed.xml" %}
+  {% if site.feed and site.feed.path %}
+    {% assign feed_path = site.feed.path %}
+  {% endif %}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ feed_path | absolute_url }}">
+
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:description" content="{{ description }}">
+  {% include fonts.html %}
+</head>

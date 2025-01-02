@@ -1,0 +1,25 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <h1>
+      <a
+        class="site-title"
+        href="{{ "/" | relative_url }}"
+        title="{{page.title | escape}} | {{ site.title | escape }}">{{ site.name | escape }}</a>
+    </h1>
+
+    <nav class="site-nav">
+      {% for link in site.data.navigation.main %}
+        {% if link.url contains "http" %}
+          {% assign url = link.url %}
+        {% else %}
+          {% assign url = link.url | relative_url %}
+        {% endif %}
+        <a class="page-link" href="{{ url }}">{{ link.title }}</a>
+      {% endfor %}
+    </nav>
+
+  </div>
+
+</header>

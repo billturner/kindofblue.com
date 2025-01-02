@@ -12,6 +12,8 @@ Even though I have uninstalled Flash and checked all the appropriate settings in
 
 I realize there may be other Chrome extensions out there (like [Disable HTML5 Autoplay](https://chrome.google.com/webstore/detail/disable-html5-autoplay/efdhoaajjjgckpbkoglidkeendpkolai?hl=en-US)), but I want something very simple and something I can update as needed. I don't want to disable videos across the whole web. For the moment, I just want to focus on CNN, and _maybe_ BBC News.
 
+<!--more-->
+
 Luckily, I don't need to start completely from scratch, because I found an extension that does something very similar: [Make Medium Readable Again](https://github.com/thebaer/MMRA "The GitHub repo for the MMRA extension"). This extension removes some annoyances from [Medium](https://medium.com/ "The Medium site") articles, which is very much in line with what I'll be trying to achieve in my own extension. I'll try not to reuse any of its code, but instead just the ideas of how it accomplishes hiding elements on a page.
 
 # Creating the necessary files

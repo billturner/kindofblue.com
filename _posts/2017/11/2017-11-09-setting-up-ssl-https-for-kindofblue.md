@@ -14,6 +14,8 @@ Luckily, at DigitalOcean - where I host this site/domain - they have [this handy
 
 I did have to adjust my DNS setup at [Namecheap](https://namecheap.com/), since I had a wildcard (`*`) catch-all domain record. Once all I had was my necessary DNS entries (minus the wildcard), I followed along with the instructions pretty much as given.
 
+<!--more-->
+
 Here's the quick version of the setup instructions:
 
 ```

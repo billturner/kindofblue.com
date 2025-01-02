@@ -17,6 +17,8 @@ The goal will be to add in the library and adjust all code necessary to take adv
 
 The code for this time will be in the same repository, [github.com/billturner/simple_flask_api](https://github.com/billturner/simple_flask_api), but this time the branch used will be `02-flask-restful`.
 
+<!--more-->
+
 #### Installing Flask-RESTful
 
 Like you did in the first tutorial, initialize the virtual environment, and then let's install the library:
