@@ -7,7 +7,7 @@ en:
     day_names: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
     month_names: ["January", "February", "March", "April", "May", "June",
       "July", "August", "September", "October", "November", "December"]
-  morelink: "Read on"
+  morelink: "Read more"
   page-older: "Older"
   page-newer: "Newer"
   archive: "Blog Archive"

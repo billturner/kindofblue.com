@@ -14,8 +14,9 @@ This is, _I think_, about the tenth weblog I've started, and it's probably not t
 
 ### Me, elsewhere:
 
-- Mastodon: [billturner@dice.camp](https://dice.camp/billturner) - My primary Mastodon account
+- Bluesky: [@kindofblue.com](https://bsky.app/profile/kindofblue.com) - My Bluesky account
 - Instagram: [billturner](https://instagram.com/billturner) - sketches &amp; photos &amp; whatever
+- Mastodon: [billturner@dice.camp](https://dice.camp/billturner) - My primary Mastodon account (will likely move to another instance in the future)
 - Mastodon: [microseasons@mas.to](https://mas.to/@microseasons) - A Mastodon bot I put up that posts when the microseason changes
 
 ### About the name
