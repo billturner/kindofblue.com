@@ -1,4 +1,6 @@
 @use "sass:color";
+@use "variables" as *;
+@use "mixins" as *;
 /**
  * Reset some basic elements
  */

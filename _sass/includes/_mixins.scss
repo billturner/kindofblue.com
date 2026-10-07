@@ -1,0 +1,14 @@
+@use "variables" as *;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit * 0.5;
+//     padding-left: $spacing-unit * 0.5;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
