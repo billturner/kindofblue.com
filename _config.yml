@@ -22,7 +22,8 @@ title: The weblog of Bill Turner
 name: Kind of Blue
 author: Bill Turner
 email: billturner@gmail.com
-description: The weblog of Pittsburgh-based web developer Bill Turner.
+description: The weblog of Pittsburgh-based software engineer Bill Turner.
+sidebar_text: "The personal weblog of Bill Turner"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kindofblue.com" # the base hostname & protocol for your site, e.g. http://example.com
 

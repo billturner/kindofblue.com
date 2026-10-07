@@ -1,3 +1,4 @@
+@use "sass:color";
 @use "base";
 @use "variables" as *;
 @use "mixins" as *;
@@ -12,7 +13,7 @@
 }
 
 .site-title {
-  font-size: 26px;
+  font-size: 42px;
   font-weight: 300;
   line-height: 56px;
   letter-spacing: -1px;
@@ -25,29 +26,40 @@
   }
 }
 
-.site-nav {
-  float: right;
-  line-height: 56px;
+.page-content > .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-unit;
+}
 
+.content-main {
+  flex: 7 1 0;
+  min-width: 0;
+}
+
+.sidebar {
+  flex: 3 1 0;
+  min-width: 0;
+}
+
+.sidebar-text {
+  font-size: $base-font-size * 1.125;
+  margin-bottom: $spacing-unit * 0.5;
+}
+
+.sidebar-nav {
   .page-link {
+    display: block;
     color: $text-color;
     line-height: $base-line-height;
-
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
-    }
+    margin-bottom: 8px;
   }
+}
 
-  @include media-query($on-palm) {
-    .page-link {
-      padding: 20px 0;
-
-      &:not(:last-child) {
-        margin-right: 0;
-      }
-      margin-left: 20px;
-    }
+@include media-query($on-laptop) {
+  .content-main,
+  .sidebar {
+    flex-basis: 100%;
   }
 }
 
@@ -88,7 +100,7 @@
     margin-bottom: $spacing-unit * 2;
 
     &:not(:first-child) {
-      border-top: 4px solid $grey-color-light;
+      border-top: 1px solid color.adjust($grey-color, $lightness: 35%, $space: hsl);
       padding-top: $spacing-unit * 2;
     }
   }
@@ -125,8 +137,15 @@
 
 .post-continue {
   a {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
     padding: 8px 15px;
     text-decoration: none;
+
+    .arrow {
+      flex: none;
+    }
 
     &,
     &:visited {
@@ -151,12 +170,12 @@
 }
 
 .post-title {
-  font-size: 42px;
+  font-size: 30px;
   letter-spacing: -1px;
   line-height: 1;
 
   @include media-query($on-laptop) {
-    font-size: 36px;
+    font-size: 26px;
   }
 }
 

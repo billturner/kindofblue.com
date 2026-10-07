@@ -1,0 +1,14 @@
+<aside class="sidebar" aria-label="Sidebar">
+  <p class="sidebar-text">{{ site.sidebar_text | default: site.description }}</p>
+
+  <nav class="sidebar-nav">
+    {% for link in site.data.navigation.main %}
+      {% if link.url contains "http" %}
+        {% assign url = link.url %}
+      {% else %}
+        {% assign url = link.url | relative_url %}
+      {% endif %}
+      <a class="page-link" href="{{ url }}">{{ link.title }}</a>
+    {% endfor %}
+  </nav>
+</aside>

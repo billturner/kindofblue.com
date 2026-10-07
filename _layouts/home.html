@@ -38,7 +38,7 @@ layout: default
         </div>
         {% if post.content contains site.excerpt_separator %}
           <p class="post-continue">
-            <a href="{{ post.url | relative_url }}">{% include i18n.html lang=lang value="morelink" default="Read on" %} &rarr;</a>
+            <a href="{{ post.url | relative_url }}">{% include i18n.html lang=lang value="morelink" default="Read on" %} <svg class="arrow" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M1 8h13M9 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></a>
           </p>
         {% endif %}
       </li>
